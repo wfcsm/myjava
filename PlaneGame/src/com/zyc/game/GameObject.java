@@ -36,7 +36,7 @@ public class GameObject {
      * 返回物体所在矩形，便于碰撞检测
      * @return
      */
-    public Rectangle getRct(){
+    public Rectangle getRect(){
         return new Rectangle((int)x,(int)y,width,height);
     }
 
