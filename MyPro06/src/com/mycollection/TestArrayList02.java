@@ -49,6 +49,19 @@ public class TestArrayList02<E> {
 
     }
 
+    public int size(){
+        return size;
+    }
+
+    public boolean isEmpty(){
+//        if (size==0){
+//            return true;
+//        }else {
+//            return false;
+//        }
+        return size ==0 ? true : false;
+    }
+
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
