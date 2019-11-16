@@ -21,7 +21,6 @@ public class TestHashMap {
 //        正在遍历最后一个元素
         Node2 iterLast = null;
         boolean keyRepeat = false;
-
         if (temp == null){
 //             此处数组元素为空，则直接将节点放进去
             table[newNode.hash] = newNode;
@@ -64,7 +63,7 @@ public class TestHashMap {
         return sb.toString();
     }
 
-    public Object get(Object key){
+    public Object get(Object key) {
         int hash=myHash(key.hashCode(),table.length);
         Object value = null;
 
